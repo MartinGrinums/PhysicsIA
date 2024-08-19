@@ -7,7 +7,7 @@ class SD_CARD {
     public:
     
 
-    String createFile(int time);
-    void writeInFile(String filename, double temp1, double therm1, double therm2, double therm3);
-    int initSD();
+    void createFile();
+    void writeInFile(String filename, double therm1, double therm2, double therm3);
+    void initSD();
 };
